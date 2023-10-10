@@ -1,0 +1,16 @@
+{
+  "name": "{{cookiecutter.project_name}}",
+  "main": "src/index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "@typescript-eslint/eslint-plugin": "^6.7.5",
+    "@typescript-eslint/parser": "^6.7.5",
+    "eslint": "^8.51.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@pulumi/pulumi": "^3.0.0"
+  }
+}
